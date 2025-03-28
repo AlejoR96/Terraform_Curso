@@ -1,0 +1,7 @@
+# Ignorar archivos de estado de Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+
+# Ignorar directorios de módulos descargados
+.terraform/modules/
